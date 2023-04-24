@@ -64,7 +64,6 @@ people.addEventListener("input", (event) => {
   } else {
     errorText.style.display = "none";
     people.style.border = "none";
-    people.style.outline = "1px solid #26c2ae";
     calculation();
   }
 });
