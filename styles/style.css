@@ -64,13 +64,17 @@ body {
     background: #F3F9FA;
     border-radius: 5px;
     outline: none;
-    /* outline: 1px solid rgba(38, 194, 174, 1); */
     border: none;
     font-size: 24px;
     color: #00474B;
     text-align: right;
     padding-right: 18px;
 }
+#bill-input:focus {
+    outline: 1px solid rgba(38, 194, 174, 1);
+}
+
+#people-input
 
   input::-webkit-outer-spin-button,
   input::-webkit-inner-spin-button {
@@ -199,10 +203,10 @@ body {
     .tip-btn {
         width: 118px;
     }
-    /* .tip-btn:hover , #reset:hover {
+    .tip-btn:hover , #reset:hover {
         background: #9FE8DF;
         transition: 0.3s;
-    } */
+    }
     .custom {
         width: 118px;
         padding-right: 15px;

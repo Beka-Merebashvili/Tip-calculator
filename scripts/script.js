@@ -26,7 +26,7 @@ let click = null ;
                 tipButtons.classList.add('tip-btn-click') ;
                 tipButonsArray.forEach((x) => {  
                     if(x !== tipButtons && tipButtons.classList.contains('tip-btn-click')) {
-                        tipButtons.classList.remove('tip-btn-click');
+                        x.classList.remove('tip-btn-click');
                     }
                 })
             }
